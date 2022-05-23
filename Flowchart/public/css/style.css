@@ -44,9 +44,9 @@ a {
   border: 1px solid #000;
 }
 
-.welcome_message {
+/* .welcome_message {
 
-}
+} */
 
 .main_nav {
   width: 90%;
@@ -69,31 +69,26 @@ a {
   color: #FFF;
 }
 
-/* header > main_nav > center_navigation */
-.nav_left,
-.nav_right {
-  width: 40%;
+/* header > center_navigation */
+.center_nav {
+  width: 80%;
   display: flex;
 }
 
 .nav_left {
+  width: 50%;
+  display: flex;
+  padding-top: 10px;
   padding-right: 100px;
   justify-content: flex-end;
 }
 
 .nav_right {
+  width: 50%;
+  display: flex;
+  padding-top: 10px;
   padding-left: 100px;
   justify-content: flex-start;
-}
-
-.nav_left li {
-  padding: 0 10px;
-  margin: 0 10px;
-}
-
-.nav_right li {
-  padding: 0 10px;
-  margin: 0 10px;
 }
 
 /* header > flowchart > left_btn */
@@ -110,28 +105,6 @@ a {
   text-align: center;
 }
 
-/* header > center_navigation */
-.center_nav {
-  width: 80%;
-  display: flex;
-}
-
-.nav_left,
-.nav_right {
-  width: 40%;
-  display: flex;
-}
-
-.nav_left {
-  padding-right: 100px;
-  justify-content: flex-end;
-}
-
-.nav_right {
-  padding-left: 100px;
-  justify-content: flex-start;
-}
-
 .nav_left li {
   padding: 0 10px;
   margin: 0 10px;
@@ -142,6 +115,14 @@ a {
   padding: 0 10px;
   margin: 0 10px;
   font-size: 18px;
+}
+
+.nav_left a {
+  color: #fff;
+}
+
+.nav_right a {
+  color: #fff;
 }
 
 .user_btn a {
