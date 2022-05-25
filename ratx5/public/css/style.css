@@ -44,9 +44,43 @@ a {
   border: 1px solid #000;
 }
 
-/* .welcome_message {
+.project_box {
+  display: inline-block;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 400px;
+  height: 300px;
+  border: 1px solid #000;
+  position: relative;
+}
 
-} */
+/* welcome_page */
+.welcome_wrapper {
+  width: 800px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.welcome_box {
+  width: 350px;
+  height: 350px;
+  border: 1px solid #000;
+}
+
+.choice_box {
+  text-align: center;
+}
+
+.choice_message {
+  margin-top: 50px;
+}
+
+.message_distance {
+  margin-top: 10px;
+}
 
 .main_nav {
   width: 90%;
@@ -125,6 +159,11 @@ a {
   color: #fff;
 }
 
+.create_project  {
+  margin-top: 50px;
+}
+
+/* btn */
 .user_btn a {
   background: #eee;
   border-radius: 50px;
@@ -191,6 +230,30 @@ a {
   margin-top: 50px;
   border-radius: 20px;
   font-size: 22px;
+}
+
+.project_name_btn {
+  width: 300px;
+  position: absolute;
+  top: 30%;
+  left: 50px;
+}
+
+.create_project_btn {
+  margin-top: 100px;
+  margin-left: 200px;
+  padding-top: 2px;
+  height: 40px;
+  width: 110px;
+  font-size: 20px;
+  border-radius: 30px;
+}
+
+.choice_btn {
+  width: 60%;
+  margin-top: 30px;
+  border-radius: 30px;
+  font-size: 18px;
 }
 /* flowchart page */
 .container {

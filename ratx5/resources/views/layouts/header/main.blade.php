@@ -5,10 +5,13 @@
 
     <div class="main_nav">
         <ul class="main_list">
-        <li><a href="">Top</a></li>
-        <li><a href="">How To</a></li>
-        <li><a href="">FAQ</a></li>
-        <li><a href="{{ url('/register') }}">Register</a></li>
+        <li><a href="{{ url('/top') }}">Top</a></li>
+        <li><a href="{{ url('/') }}">How To</a></li>
+        <li><a href="{{ url('/') }}">FAQ</a></li>
+        <li><a href="{{ url('/') }}">Register</a></li>
+        <li><a href="{{ url('/welcome') }}">(Welcome)</a></li>
+        <li><a href="{{ url('/make_flowchart') }}">(Make_Flowchart)</a></li>
+        <li><a href="{{ url('/flowchart') }}">(Create_Flowchart)</a></li>
         </ul>
     </div>
 </header>

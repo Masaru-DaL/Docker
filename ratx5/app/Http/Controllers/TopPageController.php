@@ -21,4 +21,5 @@ class TopPageController extends Controller
         public function index() {
             return view('top');
         }
+
 }
