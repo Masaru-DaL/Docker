@@ -227,7 +227,7 @@ a {
   margin-top: 10px;
   margin-bottom: 20px;
   background-color: rgb(179, 179, 179);
-  border: 1px solid #000;
+  border: 1px solid #565656;
   box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.4);
 }
 
@@ -334,8 +334,15 @@ a {
   position: relative;
   top: 650px;
   left: 50px;
-  padding-top: 8px;
+  padding-top: 6px;
   width: 140px;
   height: 40px;
   border-radius: 50px;
+}
+
+/* hover box_border */
+.box_flame:hover {
+  padding: 1em;
+  border: 1px solid #a9a9a9;
+  box-shadow: 3px 3px 6px #696969;
 }
