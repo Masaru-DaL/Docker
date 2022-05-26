@@ -101,6 +101,7 @@ a {
   padding-top: 55px;
   width: 100%;
   height: 100vh;
+  background-color: rgb(239, 239, 239);
 }
 
 .message_wrapper {
@@ -173,13 +174,25 @@ a {
   height: 100vh;
 }
 
+/* flowchart_left */
 .flowchart_left_nav {
   width: 20%;
   height: auto;
   margin: 0 0 5px 5px;
-  background-color: rgb(162, 161, 161);
+  background-color: rgb(239, 239, 239);
 }
 
+.project_box {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(237, 237, 237);
+  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+/* flowchart_center */
 .flowchart_create_box {
   width: 60%;
   height: auto;
@@ -187,13 +200,36 @@ a {
   background-color: rgb(248, 144, 144);
 }
 
+/* flowchart_right */
 .flowchart_right_nav {
   width: 20%;
   height: auto;
   margin: 0 5px 5px 0;
-  background-color: rgb(162, 161, 161);
+  background-color: rgb(239, 239, 239);
 }
 
+.box_wrapper {
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  top: 50px;
+  left: 190px;
+  width: 80px;
+  height: 500px;
+  background-color: #fff;
+  border: 1px solid rgb(179, 179, 179);
+}
+
+.box_type {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: rgb(179, 179, 179);
+  border: 1px solid #000;
+  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.4);
+}
 
 /* btn */
 .user_btn a {
@@ -292,4 +328,14 @@ a {
   display: flex;
   border-radius: 3px;
   box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+.how_to_btn {
+  position: relative;
+  top: 650px;
+  left: 50px;
+  padding-top: 8px;
+  width: 140px;
+  height: 40px;
+  border-radius: 50px;
 }
