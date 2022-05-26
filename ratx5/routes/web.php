@@ -16,7 +16,7 @@ Route::get('/', 'App\Http\Controllers\TopPageController@index')->name('top');
 Route::get('/top', 'App\Http\Controllers\TopPageController@index');
 
 Route::get('/welcome', 'App\Http\Controllers\WelcomeController@show');
-Route::get('/make_flowchart', 'App\Http\Controllers\MakeFlowchartController@show');
+Route::get('/create_flowchart', 'App\Http\Controllers\MakeFlowchartController@show');
 Route::get('/flowchart', 'App\Http\Controllers\FlowchartPageController@show');
 
 Auth::routes();

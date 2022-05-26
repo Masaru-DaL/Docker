@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class MakeFlowchartController extends Controller
 {
     public function show() {
-        return view('make_flowchart');
+        return view('create_flowchart');
     }
 }

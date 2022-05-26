@@ -1,20 +1,16 @@
 @include("layouts.head")
-@include("layouts.header.flowchart")
+@include("layouts.header.flowchart_header")
 
-<div class="message_wrapper">
-    <a href="{{ url('/top') }}">Top</a>
-</div>
+<div class="page_wrapper">
+    <div class="flowchart_page_wrapper">
+        <div class="flowchart_left_nav box_shadow">
 
-<div class="container">
-    <div class="row">
-        <div class="col">
-        1 of 3
         </div>
-        <div class="col-6">
-        2 of 3 (wider)
+        <div class="flowchart_create_box box_shadow">
+
         </div>
-        <div class="col">
-        3 of 3
+        <div class="flowchart_right_nav box_shadow">
+
         </div>
-  </div>
+    </div>
 </div>

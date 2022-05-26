@@ -10,8 +10,8 @@
         <li><a href="{{ url('/') }}">FAQ</a></li>
         <li><a href="{{ url('/') }}">Register</a></li>
         <li><a href="{{ url('/welcome') }}">(Welcome)</a></li>
-        <li><a href="{{ url('/make_flowchart') }}">(Make_Flowchart)</a></li>
-        <li><a href="{{ url('/flowchart') }}">(Create_Flowchart)</a></li>
+        <li><a href="{{ url('/create_flowchart') }}">(Make_Flowchart)</a></li>
+        <li><a href="{{ url('/flowchart') }}">(Flowchart)</a></li>
         </ul>
     </div>
 </header>
