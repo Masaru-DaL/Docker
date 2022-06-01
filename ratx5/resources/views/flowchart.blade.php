@@ -25,7 +25,7 @@
                 <div id="connectOut" class="flowchart_items"></div>
                 <div id="connectIn" class="flowchart_items"></div>
             </div>
-            
+
             <div id="btnArea" box_shadow">
                 <div class="box_type box_type1 box_flame"></div>
                 <div class="box_type box_type1 box_flame"></div>
@@ -34,9 +34,9 @@
                 <div class="box_type box_type2 box_flame"></div>
             </div>
 
-                <div class="how_to_btn_box">
-                    <a type="button" class="btn btn-outline-info how_to_btn" href="{{ url('/') }}"></i>How To</a>
-                </div>
+            <div class="how_to_btn_box">
+                <a type="button" class="btn btn-outline-info how_to_btn" href="{{ url('/') }}"></i>How To</a>
+            </div>
 
 
         </div>

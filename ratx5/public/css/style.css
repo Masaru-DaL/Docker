@@ -1,7 +1,8 @@
 body {
   padding: 0;
-  margin: 0;
-  width: 1401px;
+  margin: 0 auto;
+  width: 1443px;
+  height: 820px;
 }
 
 ul {
@@ -14,8 +15,8 @@ a {
 
 /* header > main_page */
 .header_nav {
-  width: 1401px;
-  height: 54px;
+  width: 100%;
+  height: 50px;
   display: flex;
   position: fixed;
   z-index: 10;
@@ -135,7 +136,7 @@ a {
   width: 400px;
   height: 200px;
   position: relative;
-  background-color: rgb(223, 222, 222);
+  background-color: #E5E5E5;
 }
 
 /* welcome_page */
@@ -151,15 +152,15 @@ a {
 /* flowchart_page */
 .flowchart_page_wrapper {
   display: flex;
-  padding-top: 72px;
-  width: 1401px;
-  height: 989px;
+  padding-top: 60px;
+  width: 100%;
+  height: 100%;
   background-color: #E5E5E5;
 }
 
 /* flowchart_left */
 .flowchart_left_nav {
-  width: 318px;
+  width: 20%;
   height: 989px;
   background-color: #E5E5E5;
   display: flex;
@@ -169,7 +170,7 @@ a {
 
 
 .user_project_box {
-  width: 301px;
+  width: 96%;
   height: 192px;
   border: none;
   border-radius: 20px;
@@ -183,15 +184,16 @@ a {
 
 /* flowchart > center */
 .flowchart_create_box {
-  width: 765px;
+  width: 60%;
   height: 989px;
   background-color: #fff;
 }
 
 /* flowchart > right */
 .flowchart_right_nav {
-  width: 318px;
+  width: 20%;
   height: 989px;
+  display: flex;
   background-color: #E5E5E5;
 }
 
@@ -269,8 +271,8 @@ a {
   align-items: center;
   background-color: #FFFDFD;
   border: 1px solid rgb(179, 179, 179);
-  margin-top: 20px;
-  margin-left: 210px;
+  margin-top: 30px;
+  margin-left: 45px;
 }
 
 .box_type {
