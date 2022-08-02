@@ -1,30 +1,22 @@
-from flask import render_template
-from flask_appbuilder.models.sqla.interface import SQLAInterface
-from flask_appbuilder import BaseView, expose, has_access, ModelView, ModelRestApi
+from flask import flash
+from flask_appbuilder import SimpleFormView
+from flask_babel import lazy_gettext as _
 
 from . import appbuilder, db
+from .form import MyForm
 
 
-class MyView(BaseView):
+class MyFormView(SimpleFormView):
+    form = MyForm
+    form_title = 'This is my first form view'
+    message = 'My form submitted'
 
-    route_base = "/myview"
+    def form_get(self, form):
+        form.field1.data = 'This was prefilled'
 
-    @expose('/method1/<string:param1>')
+    def form_post(self, form):
+        # post process form
+        flash(self.message, 'info')
 
-    def method1(self, param1):
-        # do something with param1
-        # and return to previous page or index
-
-        return param1
-
-    @expose('/method2/<string:param1>')
-    def method2(self, param1):
-        # do something with param1
-        # and render it
-        param1 = 'Hello %s' % (param1)
-        return param1
-
-
-appbuilder.add_view_no_menu(MyView())
-
-db.create_all()
+appbuilder.add_view(MyFormView, "My form View", icon="fa-group", label=_('My form View'),
+                     category="My Forms", category_icon="fa-cogs")
