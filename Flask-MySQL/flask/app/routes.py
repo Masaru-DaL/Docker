@@ -4,4 +4,4 @@ from app import database as db_helper
 
 @app.route("/")
 def homepage():
-  return render_template("index.html", name=db_helper())
+	return render_template("index.html", name=db_helper())
