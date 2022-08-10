@@ -26,6 +26,7 @@ services:
     platform: linux/amd64
     build: ./db
     environment:
+      # MYSQL_ALLOW_EMPTY_PASSWORD: 'yes'
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: flask
       MYSQL_USER: flask
