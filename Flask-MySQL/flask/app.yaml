@@ -4,9 +4,9 @@ instance_class: F1
 
 env_variables:
   MYSQL_USER: 'flask'
-  MYSQL_PASSWORD: 'flask'
+  MYSQL_PASSWORD: 'root'
   MYSQL_DB: 'todo'
-  # MYSQL_HOST: <database_ip>
+  MYSQL_HOST: 10.47.16.3
 
 handlers:
 - url: /img

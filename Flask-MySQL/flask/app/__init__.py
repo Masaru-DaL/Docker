@@ -1,5 +1,6 @@
 import os
 import sqlalchemy
+import pymysql
 from flask import Flask
 from yaml import load, Loader
 
@@ -16,7 +17,7 @@ def init_connect_engine():
                 username=os.environ.get('MYSQL_USER'), #username
                 password=os.environ.get('MYSQL_PASSWORD'), #user password
                 database=os.environ.get('MYSQL_DB'), #database name
-                # host=os.environ.get('MYSQL_HOST') #ip
+                host=os.environ.get('MYSQL_HOST') #ip
             )
         )
     return pool
